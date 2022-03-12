@@ -6,7 +6,7 @@ export class MealItemForm extends Component {
     return (
       <form className={classes.form}>
           <Input label="Amount" input={{ 
-              id: 'amount',
+              id: 'amount_'+this.props.id,
               type: 'number',
               min: '1',
               max: '5',
